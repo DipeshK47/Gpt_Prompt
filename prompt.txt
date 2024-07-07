@@ -1,0 +1,92 @@
+Parse my resume document into JSON format:
+{
+  "name": "Your Name",
+  "contact_info": {
+    "email": "your.email@example.com",
+    "phone": "+1234567890",
+    "address": "123 Main St, City, State, Zip"
+  },
+  "summary": "A brief summary of your professional background and career goals.",
+  "education": [
+    {
+      "degree": "Degree Name",
+      "major": "Major",
+      "university": "University Name",
+      "graduation_date": "Month Year"
+    },
+    {
+      "degree": "Second Degree Name (if applicable)",
+      "major": "Major",
+      "university": "University Name",
+      "graduation_date": "Month Year"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Job Title",
+      "company": "Company Name",
+      "location": "City, State",
+      "start_date": "Month Year",
+      "end_date": "Month Year (or Present if current)",
+      "responsibilities": [
+        "Responsibility 1",
+        "Responsibility 2",
+        "..."
+      ]
+    },
+    {
+      "title": "Second Job Title (if applicable)",
+      "company": "Company Name",
+      "location": "City, State",
+      "start_date": "Month Year",
+      "end_date": "Month Year (or Present if current)",
+      "responsibilities": [
+        "Responsibility 1",
+        "Responsibility 2",
+        "..."
+      ]
+    }
+  ],
+  "skills": [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3",
+    "..."
+  ],
+  "projects": [
+    {
+      "title": "Project Title",
+      "description": "Brief description of the project.",
+      "technologies_used": [
+        "Technology 1",
+        "Technology 2",
+        "..."
+      ]
+    },
+    {
+      "title": "Second Project Title (if applicable)",
+      "description": "Brief description of the project.",
+      "technologies_used": [
+        "Technology 1",
+        "Technology 2",
+        "..."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Certification Name",
+      "date": "Month Year"
+    },
+    {
+      "title": "Second Certification Name (if applicable)",
+      "date": "Month Year"
+    }
+  ]
+}
+
+For extracting data from your resume document, suitable technologies include:
+- Natural Language Processing (NLP) tools like spaCy or NLTK for text analysis and information extraction.
+- Optical Character Recognition (OCR) software such as Tesseract for converting scanned or image-based resumes into editable text.
+- Document parsing libraries such as Apache Tika or pdfminer.six for parsing PDF or other document formats.
+- Regular expressions (Regex) for pattern matching and extracting specific types of information like dates, email addresses, and phone numbers.
